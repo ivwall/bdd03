@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="webkernel.RunCucumberTest" time="1.063" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="webkernel.RunCucumberTest" time="0.578" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17+35-2724"/>
@@ -42,7 +42,7 @@
     <property name="java.class.path" value="C:\3rdPartySoftware\1011-mvn\apache-maven-3.8.3-bin\apache-maven-3.8.3\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install dependency:copy-dependencies"/>
     <property name="java.home" value="C:\3rdPartySoftware\1011-jdk\openjdk-17_windows-x64_bin\jdk-17"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,5 +60,5 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Verification of Reset button" classname="Reset functionality on login page of Application" time="0.375"/>
+  <testcase name="Verification of Reset button" classname="Reset functionality on login page of Application" time="0.142"/>
 </testsuite>
