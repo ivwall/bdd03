@@ -38,6 +38,9 @@ public class StepDefinitions {
     @Given("^Open Chrome set to google$")				
     public void open_chrome_set_to_google() throws Throwable	{		
         System.out.println("Open Chrome set to google");
+        driver= new ChromeDriver();					
+        driver.manage().window().maximize();			
+        driver.get("https://google.com/ncr");	        
         //System.setProperty("webdriver.chrome.driver", "D://2021//1021-webcu//bdd03//webkernel//target//dependency//chromedriver.exe");					
         //driver= new ChromeDriver();					
         //driver.manage().window().maximize();			
